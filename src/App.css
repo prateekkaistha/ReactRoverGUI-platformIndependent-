@@ -1,0 +1,101 @@
+.sideBar {
+  /* max-height: 100%; */
+  background-color:#202020;
+  /* border: 3px solid red; */
+  color:floralwhite;
+  width: 20%;
+  height: 94vh;
+}
+
+.playArea {
+  height:74vh;
+}
+
+.footerArea{
+  height: 20vh;
+  background-color:	#282828;
+  color: floralwhite;
+}
+
+.row-content {
+  background-color:yellow;
+  /* border: 3px solid blue ; */
+
+}
+
+.col-content {
+  background-color:	#404040;
+  /* background-color:	#404040; */
+  /* border: 3px solid red; */
+
+}
+.heaaader{
+  position: fixed;
+  /* top:0; */
+  width:100%;
+  /* height:100px; */
+}
+.foooter{
+  border: 3px solid blue;
+  background-color: orange;
+  position: relative;
+  bottom:0;
+  height: 20vh;
+  width: 100%
+}
+
+.screeen{
+  width:100%;
+  height: 100%;
+}
+
+
+.leaflet-container {
+  padding: 0%;
+  margin-left: 0px;
+  /* border: 3px solid blue ; */
+ height: 74.9vh;
+ width: 100%;
+}
+
+
+.outer {
+  /* border: 1px solid #d3b64d; */
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.ocerYellow {
+  color:  #d3b64d;
+}
+
+.meraBlue {
+  color: rgb(121, 178, 216)
+}
+
+.lightBlue {
+color : rgb(100, 128, 219)
+}
+
+.myFont {
+  font-family: "Consolas","Arial";
+  /* font-size: 22px; */
+}
+
+.myGreen{
+  color: rgb(44, 105, 44);
+}
+
+.fWhite{
+  color: floralwhite;
+}
+
+.row-gap{
+  padding:10px;
+  
+}
+
+
+.tdSettings {
+  height: 20vh;
+}

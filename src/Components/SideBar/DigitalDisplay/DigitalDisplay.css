@@ -1,0 +1,40 @@
+.outer {
+    /* border: 1px solid #d3b64d; */
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.ocerYellow {
+    color:  #d3b64d;
+}
+
+.meraBlue {
+    color: rgb(121, 178, 216)
+}
+
+.lightBlue {
+color : rgb(100, 128, 219)
+}
+
+.myFont {
+    font-family: "Consolas","Arial";
+    /* font-size: 22px; */
+}
+
+.myGreen{
+    color: rgb(44, 105, 44);
+}
+
+.fWhite{
+    color: floralwhite;
+}
+
+.row-gap{
+    padding:10px;
+    
+}
+
+
+.tdSettings {
+    height: 20vh;
+}
