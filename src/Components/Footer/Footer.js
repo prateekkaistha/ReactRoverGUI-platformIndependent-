@@ -7,8 +7,8 @@ const Footer =(props) =>{
         <div className="col-5   myGreen myFont ">
           <h5>Vaad Samwaad.</h5>
           <ul>
-            <li><strong>Rover :</strong> I am ready . are you ???</li>
-            <li><strong>Base Station :</strong> Yes I am. Vaise Chacha Vidhayak hai hamare !!! </li>
+            <li>{props.reply}</li>
+            {/* <li><strong>Base Station :</strong> Yes I am. Vaise Chacha Vidhayak hai hamare !!! </li> */}
           </ul>
         </div>
         <div className="col-7">

@@ -6,7 +6,8 @@ import ThreeD from './ThreeD/ThreeD';
 import Battery from './Battery/Battery';
 // import './DigitalDisplay/DigitalDisplay.css';
 import '../../App.css';
-const SideBar = () => {
+const SideBar = (props) => {
+    console.log("rotate prop in SideBar : ",props.rotate);
     return(
         <div className="container-fluid">
             
@@ -30,7 +31,7 @@ const SideBar = () => {
   
        <div className="row justify-content-center tdSettings outer">
         <div className="col-12">
-          <ThreeD rotate={false}/>
+          <ThreeD rotate={props.rotate}/>
         </div>
        </div>         
 

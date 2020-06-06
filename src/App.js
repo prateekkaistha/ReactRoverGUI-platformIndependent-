@@ -6,11 +6,14 @@ import MapComponent from './Components/MapComponent';
 import "leaflet/dist/leaflet.css";
 import './App.css';
 import start from './Components/ROS/publisher';
+import initialise from './Components/ROS/initializer';
+
 class App extends Component{
   state={
     currIP:'',
     ipAddress:'',
-    expanded:false
+    connected:false,
+    reply: null
   };
 
   ipHandler = (event) => {
@@ -18,10 +21,16 @@ class App extends Component{
     this.setState({currIP:c});
   }
 
-  clickHandler = () => {
-    const curr = this.state.expanded;
-    this.setState({expanded:!curr,ipAddress:this.state.currIP});
-    start();
+  connectionStatus = (stat,reply) => {
+    console.log("Status is : ",stat);
+    this.setState({connected:stat,reply: reply});
+  }
+
+  clickHandler = () => {  
+    if(this.state.currIP){
+      initialise(this.state.currIP,this.connectionStatus);
+    }
+    this.setState({ipAddress:this.state.currIP});
   }
 
   render(){
@@ -34,7 +43,7 @@ class App extends Component{
       <div className="container-fluid ">
         <div className="row ">
           <div className="col-2 sideBar">
-            <SideBar/>
+            <SideBar rotate={this.state.connected}/>
           </div>
 
           <div className="col-10 col-content ">
@@ -46,7 +55,7 @@ class App extends Component{
 
             <div className="row ">
               <div className="col-12 footerArea outer">
-                <Footer/>
+                <Footer reply={this.state.reply}/>
               </div>
             </div>
           </div>
