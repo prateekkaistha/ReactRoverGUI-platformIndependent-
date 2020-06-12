@@ -26,6 +26,14 @@ class ThreeD extends Component{
         
         this.mount.appendChild( renderer.domElement);
 
+
+
+        var light = new THREE.PointLight(0xff0000,1,100);
+        light.position.set(300,300,300);
+        scene.add(light);
+
+
+
         const geometry = new THREE.BoxGeometry(200,200,200);
         var wireframe = new THREE.WireframeGeometry( geometry );
         var line = new THREE.LineSegments( wireframe );
@@ -35,18 +43,6 @@ class ThreeD extends Component{
         
 
 
-        // const material = new THREE.MeshBasicMaterial({color:0x0000ff});
-        
-        // // const texture = new THREE.TextureLoader(  ).load('tex2.gif');
-        // // const material = new THREE.MeshBasicMaterial({map:texture});
-
-      
-        // const cube = new THREE.Mesh(geometry,material);
-        // const cube2 = new THREE.Mesh(geometry,material);
-        
-        // cube2.position.x=5;
-
-
         var geometry2 = new THREE.SphereBufferGeometry( 100, 100, 100 );
 
         var wireframe2 = new THREE.WireframeGeometry( geometry2 );
@@ -54,11 +50,6 @@ class ThreeD extends Component{
         line2.material.depthTest = false;
         line2.material.opacity = 0.25;
         line2.material.transparent = true;
-
-
-        var light = new THREE.PointLight(0xff0000,1,100);
-        light.position.set(300,300,300);
-        scene.add(light);
 
 
         scene.add( line );

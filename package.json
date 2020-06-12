@@ -16,13 +16,17 @@
     "react-circular-progressbar": "^2.0.3",
     "react-compass": "^0.1.0",
     "react-dom": "^16.13.1",
+    "react-full-screen": "^0.2.4",
     "react-icons": "^3.10.0",
     "react-joystick-component": "^1.4.0",
+    "react-keyboard-event-handler": "^1.5.4",
     "react-leaflet": "^2.7.0",
     "react-scripts": "3.4.1",
+    "react-sound": "^1.2.0",
     "reactstrap": "^8.4.1",
     "roslib": "^1.1.0",
-    "three": "^0.117.1"
+    "three": "^0.117.1",
+    "three-orbitcontrols": "^2.110.3"
   },
   "scripts": {
     "start": "react-scripts start",

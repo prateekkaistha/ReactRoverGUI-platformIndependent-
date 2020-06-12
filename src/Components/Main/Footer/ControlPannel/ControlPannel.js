@@ -1,7 +1,7 @@
 import React from 'react';
 import { GiFlame,GiPointySword} from "react-icons/gi";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../../App.css';
+import '../../../Main/App.css';
 
 
 const ControlPannel = (props) => {

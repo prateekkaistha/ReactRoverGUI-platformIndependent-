@@ -5,7 +5,7 @@ import ChartDisplay from './ChartsDisplay/ChartsDisplay';
 import ThreeD from './ThreeD/ThreeD';
 import Battery from './Battery/Battery';
 // import './DigitalDisplay/DigitalDisplay.css';
-import '../../App.css';
+import '../App.css';
 const SideBar = (props) => {
     console.log("rotate prop in SideBar : ",props.rotate);
     return(
@@ -25,13 +25,13 @@ const SideBar = (props) => {
         
         <div className="row justify-content-center outer">
           <div className="col-12">
-            <ChartDisplay/>
+            <ChartDisplay  speeds={props.speeds}/>
           </div>
         </div>
   
        <div className="row justify-content-center tdSettings outer">
         <div className="col-12">
-          <ThreeD rotate={props.rotate}/>
+          <ThreeD rotate={window.connected}/>
         </div>
        </div>         
 

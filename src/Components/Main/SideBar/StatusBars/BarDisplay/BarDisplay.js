@@ -1,7 +1,7 @@
 import React from 'react';
 import { Progress } from 'reactstrap';
 import {FiPlusCircle,FiMinusCircle} from 'react-icons/fi';
-import '../../../../App.css';
+import '../../../../Main/App.css';
 
 
 const BarDisplay = (props) => {

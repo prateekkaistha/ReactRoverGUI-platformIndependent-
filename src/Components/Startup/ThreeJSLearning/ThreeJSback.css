@@ -1,0 +1,108 @@
+.ThreeJSback {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10001;
+    left:0;
+    top: 0;
+    opacity:1;
+    overflow: hidden;
+}
+.ThreeJSbackFade {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10001;
+    left:0;
+    top: 0;
+    opacity:0.8;
+    overflow: hidden;
+}
+
+
+.forward{
+    text-align: center;
+    height:7vh;
+    /* width:55vh; */
+    z-index: 10002;
+    top:70vh;
+    left:15vh;
+
+    border: solid white 2px;
+    border-radius: 10px;
+    margin-left:0px;
+    padding: 5px 25px 5px 25px;
+    position: fixed;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:floralwhite;
+}
+
+.input
+{
+    height:7vh;
+    width:50vh;
+    z-index: 10002;
+    top:80vh;
+    left:15vh;
+    border: solid white 2px;
+    border-radius: 10px;
+    margin-left:0px;
+    padding: 5px 25px 5px 25px;
+    position: fixed;
+    font-size: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    background-color:transparent;
+}
+.input:focus{
+    background-color:transparent;
+    border: solid rgb(207, 190, 184) 3px;
+    color: rgb(207, 190, 184);
+    font-style: italic;
+}
+.button{
+    height:7vh;
+    width:50vh;
+    z-index: 110000;
+    top:70vh;
+    left:15vh;
+    border: solid white 2px;
+    border-radius: 10px;
+    margin-left:0px;
+    padding: 5px 25px 5px 25px;
+    position: fixed;
+    font-size: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    background-color:transparent;
+}
+.button:hover{
+    border: solid rgb(207, 190, 184) 3px;
+    color: rgb(207, 190, 184);
+    background-color:transparent;
+}
+.button:focus{
+    background-color:rgba(95, 36, 13, 0.548);
+    color:white;
+
+}
+.message{
+    height:7vh;
+    /* width:55vh; */
+    z-index: 10002;
+    top:90vh;
+    left:15vh;
+    /* border: solid white 2px;
+    border-radius: 10px; */
+    margin-left:0px;
+    /* padding: 5px 25px 5px 25px; */
+    position: fixed;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(207, 190, 184);
+    background-color:transparent;
+   
+}
+
+

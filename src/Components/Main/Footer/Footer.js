@@ -1,6 +1,6 @@
 import React from 'react';
 import ControlPannel from './ControlPannel/ControlPannel';
-import '../../App.css';
+import '../App.css';
 const Footer =(props) =>{
     return (
         <div className="row">
