@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Layout from './Layout';
+import Video from './Components/Video/Video';
 ReactDOM.render(
   <React.StrictMode>
     <Layout/>
+    {/* <Video/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

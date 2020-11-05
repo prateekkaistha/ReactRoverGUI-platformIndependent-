@@ -18,7 +18,7 @@ export default class ChartsDisplay extends Component {
         borderWidth: 2,
         data: [0, 0,0, 20, -35, 35]
       }
-    ],
+    ],  
   }
   
   updateHandler = (message) => {

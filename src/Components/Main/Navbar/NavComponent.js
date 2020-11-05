@@ -16,8 +16,6 @@ import {
     NavbarText
   } from 'reactstrap';
 
-  import '../App.css';
-
 const NavComponent = (props) => {
     return(
         <div >

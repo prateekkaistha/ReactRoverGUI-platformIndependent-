@@ -26,7 +26,8 @@
     "reactstrap": "^8.4.1",
     "roslib": "^1.1.0",
     "three": "^0.117.1",
-    "three-orbitcontrols": "^2.110.3"
+    "three-orbitcontrols": "^2.110.3",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",
